@@ -17,16 +17,16 @@ def readFileContents(filename):
 	    data = myfile.read()
 	return data
 
-
-samples = [10, 20, 50, 100, 200]
+samples = [12,24,48,96,192,384,768,1536]
 
 baseFileName = 'config_base.txt'
 
 # Replacing tokens
 for i in samples:	
-	filename = "samples_"
+	filename = "trainingSize_"
 	data = readFileContents(baseFileName)
-	data = data.replace("<x>", str(i))
+	data = data.replace("<x>", "train_pos_" + str(i) + ".txt")
+	data = data.replace("<y>", "train_neg_" + str(i) + ".txt")
 	filename = filename + str(i)
 	saveFile(filename, data)
 
