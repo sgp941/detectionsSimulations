@@ -6,7 +6,7 @@ from subprocess import call
 
 dirs = os.listdir(".")
 dirs = [x[0] for x in os.walk(".") if "git" not in x[0]]
-dirs = [x for x in dirs if "/trees" not in x[0]]
+dirs = [x for x in dirs if "/trees" not in x]
 dirs.pop(0)
 print dirs
 
@@ -44,3 +44,5 @@ for (count, dir) in enumerate(dirs):
 	print "=============================================================================="
 	print "TEST " + str(count) + " TRAINING TIME: " + str(total) + " seconds"
  	print "=============================================================================="
+
+'''
