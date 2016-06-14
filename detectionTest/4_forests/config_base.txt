@@ -21,17 +21,17 @@
 # Scale factor for output image (default: 128)
 128
 # Path to positive examples
-../../../football/configsForSimulation/configForForest/<xfolder>
+../../../football/configsForSimulation/configForForests/<xfolder>
 # File with postive examples
-../../../football/configsForSimulation/configForForest/<x>
+../../../football/configsForSimulation/configForForests/<x>
 # Subset of positive images -1: all images
 -1
 # Sample patches from pos. examples
 50
 # Path to negative examples
-../../../football/configsForSimulation/configForForest/<yfolder>
+../../../football/configsForSimulation/configForForests/<yfolder>
 # File with negative examples
-../../../football/configsForSimulation/configForForest/<y>
+../../../football/configsForSimulation/configForForests/<y>
 # Subset of negative images -1: all images
 -1
 # Sample patches from neg. examples
