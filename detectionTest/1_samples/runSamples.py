@@ -6,6 +6,7 @@ from subprocess import call
 
 dirs = os.listdir(".")
 dirs = [x[0] for x in os.walk(".") if "git" not in x[0]]
+print dirs
 dirs.pop(0)
 print dirs
 
