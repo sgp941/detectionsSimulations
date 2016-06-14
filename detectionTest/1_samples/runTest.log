@@ -1,0 +1,266 @@
+/home/sp3612/detectionsSimulations/detectionTest/1_samples/samples_50
+
+------------------------------------
+
+Detection:        
+Trees:            10 ./trees/treetable
+Patches:          16 16
+Images:           ../../../football/testImages
+                  ../../../football/testImages/test.txt
+Scales:           0.5 1 2 
+Ratios:           1 
+Extract Features: 1
+Output:           128 ./detect
+
+------------------------------------
+
+Load Tree ./trees/treetable000.txt
+Load Tree ./trees/treetable001.txt
+Load Tree ./trees/treetable002.txt
+Load Tree ./trees/treetable003.txt
+Load Tree ./trees/treetable004.txt
+Load Tree ./trees/treetable005.txt
+Load Tree ./trees/treetable006.txt
+Load Tree ./trees/treetable007.txt
+Load Tree ./trees/treetable008.txt
+Load Tree ./trees/treetable009.txt
+Timer
+Time 192.786 sec
+Timer
+Time 187.911 sec
+Timer
+Time 191.073 sec
+Timer
+Time 188.169 sec
+Timer
+Time 190.141 sec
+Timer
+Time 187.603 sec
+Timer
+Time 189.244 sec
+Timer
+Time 187.958 sec
+Timer
+Time 189.672 sec
+Timer
+Time 188.372 sec
+/home/sp3612/detectionsSimulations/detectionTest/1_samples/samples_20
+
+------------------------------------
+
+Detection:        
+Trees:            10 ./trees/treetable
+Patches:          16 16
+Images:           ../../../football/testImages
+                  ../../../football/testImages/test.txt
+Scales:           0.5 1 2 
+Ratios:           1 
+Extract Features: 1
+Output:           128 ./detect
+
+------------------------------------
+
+Load Tree ./trees/treetable000.txt
+Load Tree ./trees/treetable001.txt
+Load Tree ./trees/treetable002.txt
+Load Tree ./trees/treetable003.txt
+Load Tree ./trees/treetable004.txt
+Load Tree ./trees/treetable005.txt
+Load Tree ./trees/treetable006.txt
+Load Tree ./trees/treetable007.txt
+Load Tree ./trees/treetable008.txt
+Load Tree ./trees/treetable009.txt
+Timer
+Time 141.095 sec
+Timer
+Time 141.521 sec
+Timer
+Time 140.411 sec
+Timer
+Time 140.926 sec
+Timer
+Time 142.66 sec
+Timer
+Time 142.636 sec
+Timer
+Time 140.853 sec
+Timer
+Time 141.138 sec
+Timer
+Time 141.894 sec
+Timer
+Time 140.415 sec
+/home/sp3612/detectionsSimulations/detectionTest/1_samples/samples_200
+
+------------------------------------
+
+Detection:        
+Trees:            10 ./trees/treetable
+Patches:          16 16
+Images:           ../../../football/testImages
+                  ../../../football/testImages/test.txt
+Scales:           0.5 1 2 
+Ratios:           1 
+Extract Features: 1
+Output:           128 ./detect
+
+------------------------------------
+
+Load Tree ./trees/treetable000.txt
+Load Tree ./trees/treetable001.txt
+Load Tree ./trees/treetable002.txt
+Load Tree ./trees/treetable003.txt
+Load Tree ./trees/treetable004.txt
+Load Tree ./trees/treetable005.txt
+Load Tree ./trees/treetable006.txt
+Load Tree ./trees/treetable007.txt
+Load Tree ./trees/treetable008.txt
+Load Tree ./trees/treetable009.txt
+Timer
+Time 288.797 sec
+Timer
+Time 291.09 sec
+Timer
+Time 290.953 sec
+Timer
+Time 290.178 sec
+Timer
+Time 289.759 sec
+Timer
+Time 291.599 sec
+Timer
+Time 290.438 sec
+Timer
+Time 290.866 sec
+Timer
+Time 4587.13 sec
+Timer
+Time 4586.79 sec
+/home/sp3612/detectionsSimulations/detectionTest/1_samples/samples_10
+
+------------------------------------
+
+Detection:        
+Trees:            10 ./trees/treetable
+Patches:          16 16
+Images:           ../../../football/testImages
+                  ../../../football/testImages/test.txt
+Scales:           0.5 1 2 
+Ratios:           1 
+Extract Features: 1
+Output:           128 ./detect
+
+------------------------------------
+
+Load Tree ./trees/treetable000.txt
+Load Tree ./trees/treetable001.txt
+Load Tree ./trees/treetable002.txt
+Load Tree ./trees/treetable003.txt
+Load Tree ./trees/treetable004.txt
+Load Tree ./trees/treetable005.txt
+Load Tree ./trees/treetable006.txt
+Load Tree ./trees/treetable007.txt
+Load Tree ./trees/treetable008.txt
+Load Tree ./trees/treetable009.txt
+Timer
+Time 116.773 sec
+Timer
+Time 115.795 sec
+Timer
+Time 115.281 sec
+Timer
+Time 115.497 sec
+Timer
+Time 115.067 sec
+Timer
+Time 115.11 sec
+Timer
+Time 115.481 sec
+Timer
+Time 115.279 sec
+Timer
+Time 115.587 sec
+Timer
+Time 115.988 sec
+/home/sp3612/detectionsSimulations/detectionTest/1_samples/samples_100
+
+------------------------------------
+
+Detection:        
+Trees:            10 ./trees/treetable
+Patches:          16 16
+Images:           ../../../football/testImages
+                  ../../../football/testImages/test.txt
+Scales:           0.5 1 2 
+Ratios:           1 
+Extract Features: 1
+Output:           128 ./detect
+
+------------------------------------
+
+Load Tree ./trees/treetable000.txt
+Load Tree ./trees/treetable001.txt
+Load Tree ./trees/treetable002.txt
+Load Tree ./trees/treetable003.txt
+Load Tree ./trees/treetable004.txt
+Load Tree ./trees/treetable005.txt
+Load Tree ./trees/treetable006.txt
+Load Tree ./trees/treetable007.txt
+Load Tree ./trees/treetable008.txt
+Load Tree ./trees/treetable009.txt
+Timer
+Time 243.554 sec
+Timer
+Time 243.442 sec
+Timer
+Time 243.873 sec
+Timer
+Time 244.588 sec
+Timer
+Time 244.285 sec
+Timer
+Time 241.859 sec
+Timer
+Time 245.599 sec
+Timer
+Time 245.994 sec
+Timer
+Time 245.478 sec
+Timer
+Time 4541.78 sec
+['./samples_50', './samples_20', './samples_200', './samples_10', './samples_100']
+==============================================================================
+WE ARE ON FILE 0 OF 5
+==============================================================================
+0
+==============================================================================
+TEST 0 TESTING TIME: 1893.23060799 seconds
+==============================================================================
+==============================================================================
+WE ARE ON FILE 1 OF 5
+==============================================================================
+0
+==============================================================================
+TEST 1 TESTING TIME: 1414.79566002 seconds
+==============================================================================
+==============================================================================
+WE ARE ON FILE 2 OF 5
+==============================================================================
+0
+==============================================================================
+TEST 2 TESTING TIME: 2908.26939392 seconds
+==============================================================================
+==============================================================================
+WE ARE ON FILE 3 OF 5
+==============================================================================
+0
+==============================================================================
+TEST 3 TESTING TIME: 1158.86603594 seconds
+==============================================================================
+==============================================================================
+WE ARE ON FILE 4 OF 5
+==============================================================================
+0
+==============================================================================
+TEST 4 TESTING TIME: 2445.19266391 seconds
+==============================================================================
