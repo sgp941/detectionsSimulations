@@ -1,0 +1,39 @@
+# Path to trees + prefix 'treetable'
+./trees/treetable
+# Number of trees
+<numTrees>
+# Patch width
+<patchWidth>
+# Patch height
+<patchHeight>
+# Path to images
+<testPath>
+# File with names of images
+<testTxt>
+# Extract features
+1
+# Scales (Number of scales - Scales)
+3 0.5 1 2
+# Ratios (Number of ratios - ratio)
+1 1
+# Output path
+./detect
+# Scale factor for output image (default: 128)
+128
+# Path to positive examples
+<posPath>
+# File with postive examples
+<posTxt>
+# Subset of positive images -1: all images
+-1
+# Sample patches from pos. examples
+<samplePatchesPos>
+# Path to negative examples
+<negPath>
+# File with negative examples
+<negTxt>
+# Subset of negative images -1: all images
+-1
+# Sample patches from neg. examples
+<samplePatchesNeg>
+

@@ -1,0 +1,23 @@
+# change paths if necessary
+INCLUDES = -I~/Documents/opencv-2.4.10/includes
+LIBS = -lcxcore -lcv -lcvaux -lhighgui -lml
+LIBDIRS = -L~/Documents/opencv-2.4.10/release/lib
+
+OPT = -O3 -Wno-deprecated
+
+CC=g++
+
+.PHONY: all clean
+
+OBJS = CRForest-Detector.o CRPatch.o HoG.o CRForestDetector.o CRTree.o
+
+clean:
+		rm -f *.o *~ CRForest-Detector
+			
+all:	CRForest-Detector
+		echo all: make complete
+%.o:%.cpp
+	$(CC) -c $(INCLUDES) $+ $(OPT)
+	
+CRForest-Detector: $(OBJS)
+		$(CC) $(LIBDIRS) $(LIBS) -o $@ $+ $(OPT)

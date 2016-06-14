@@ -1,0 +1,39 @@
+# Path to trees + prefix 'treetable'
+./trees/treetable
+# Number of trees
+20
+# Patch width
+16
+# Patch height
+16
+# Path to images
+/home/sgp/Documents/hough/football/png
+# File with names of images
+/home/sgp/Documents/hough/football/png/test.txt
+# Extract features
+1
+# Scales (Number of scales - Scales)
+3 0.5 1 2
+# Ratios (Number of ratios - ratio)
+1 1
+# Output path
+./detect
+# Scale factor for output image (default: 128)
+128
+# Path to positive examples
+/home/sgp/Documents/hough/football/trainimages/positive
+# File with postive examples
+/home/sgp/Documents/hough/football/train_txt/train_pos102.txt
+# Subset of positive images -1: all images
+-1
+# Sample patches from pos. examples
+50
+# Path to negative examples
+/home/sgp/Documents/hough/football/trainimages/negative
+# File with negative examples
+/home/sgp/Documents/hough/football/train_txt/train_neg102.txt
+# Subset of negative images -1: all images
+-1
+# Sample patches from neg. examples
+50
+
