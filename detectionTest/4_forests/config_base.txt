@@ -29,9 +29,9 @@
 # Sample patches from pos. examples
 50
 # Path to negative examples
-../../../football/configsForSimulation/configForForests/<yfolder>
+../../../football/configsForSimulation/configForForests/train_neg
 # File with negative examples
-../../../football/configsForSimulation/configForForests/<y>
+../../../football/configsForSimulation/configForForests/train_neg.txt
 # Subset of negative images -1: all images
 -1
 # Sample patches from neg. examples
