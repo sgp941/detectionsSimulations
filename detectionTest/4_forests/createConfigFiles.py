@@ -18,15 +18,19 @@ def readFileContents(filename):
 	return data
 
 
-samples = [10, 20, 50, 100, 200]
+samples = ["1_1", "2_1", "2_2", "3_1", "3_2", "3_3", "4_1", "4_2", "4_3", "4_4"]
 
 baseFileName = 'config_base.txt'
 
 # Replacing tokens
 for i in samples:	
-	filename = "samples_"
+
+	filename = "forest"
 	data = readFileContents(baseFileName)
-	data = data.replace("<x>", str(i))
+	data = data.replace("<xfolder>", "train_pos_" + i)
+	data = data.replace("<x>", "train_pos_" + i + ".txt")
+	data = data.replace("<yfolder>", "train_neg_" + i)
+	data = data.replace("<y>", "train_neg_" + i + ".txt")
 	filename = filename + str(i)
 	saveFile(filename, data)
 
