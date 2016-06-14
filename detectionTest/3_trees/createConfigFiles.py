@@ -24,7 +24,7 @@ baseFileName = 'config_base.txt'
 
 # Replacing tokens
 for i in samples:	
-	filename = "trees_"
+	filename = "numTree_"
 	data = readFileContents(baseFileName)
 	data = data.replace("<x>", str(i))
 	filename = filename + str(i)
