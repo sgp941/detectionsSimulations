@@ -23,7 +23,7 @@
 # Path to positive examples
 ../../../football/configsForSimulation/configForForest/<xfolder>
 # File with postive examples
-../../../football/configsForSimulation/configForTrainingSize/<x>
+../../../football/configsForSimulation/configForForest/<x>
 # Subset of positive images -1: all images
 -1
 # Sample patches from pos. examples
@@ -31,10 +31,9 @@
 # Path to negative examples
 ../../../football/configsForSimulation/configForForest/<yfolder>
 # File with negative examples
-../../../football/configsForSimulation/configForTrainingSize/<y>
+../../../football/configsForSimulation/configForForest/<y>
 # Subset of negative images -1: all images
 -1
 # Sample patches from neg. examples
 50
 
-detectionSimulations/football/configsForSimulation/configForForests 
