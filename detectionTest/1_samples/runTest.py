@@ -10,7 +10,6 @@ dirs = [x for x in dirs if "/trees" not in x]
 dirs.pop(0)
 print dirs
 
-'''
 
 configFileName = "config.txt"
 timeFile = 'timer.txt'
@@ -26,7 +25,7 @@ for (count, dir) in enumerate(dirs):
  	t0 = time.time()
 	os.chdir(dir)
 	print call("pwd")
-	call(["../HoughForests", "2", configFileName])
+	call(["../../HoughForests", "2", configFileName])
 	os.chdir("..")
 	t1 = time.time()
 	total = t1-t0
@@ -42,7 +41,7 @@ for (count, dir) in enumerate(dirs):
 #   		myfile.write(str(total) + "\n")
 
 	print "=============================================================================="
-	print "TEST " + str(count) + " TRAINING TIME: " + str(total) + " seconds"
+	print "TEST " + str(count) + " TESTING TIME: " + str(total) + " seconds"
  	print "=============================================================================="
 
-'''
+

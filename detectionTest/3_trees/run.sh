@@ -1,6 +1,6 @@
-python runPatchSize.py
-echo "PatchSize Run Complete" | mailx -r "CloudBuild" -s "PatchSize Run Complete -  `date`" "arjunmuhunthan@gmail.com"
-echo "PatchSize Run Complete" | mailx -r "CloudBuild" -s "PatchSize Run Complete - `date`" "sp3612@ic.ac.uk"
-python runTest.py
-echo "PatchSize Test Complete" | mailx -r "CloudBuild" -s "PatchSize Test Complete - `date`" "arjunmuhunthan@gmail.com"
-echo "PatchSize Test Complete" | mailx -r "CloudBuild" -s "PatchSize Test Complete - `date`" "sp3612@ic.ac.uk"
+./runTrees.py
+echo "Trees Run Complete" | mailx -r "CloudBuild" -s "Trees Run Complete -  `date`" "arjunmuhunthan@gmail.com"
+echo "Trees Run Complete" | mailx -r "CloudBuild" -s "Trees Run Complete - `date`" "sp3612@ic.ac.uk"
+./runTest.py
+echo "Trees Test Complete" | mailx -r "CloudBuild" -s "Trees Test Complete - `date`" "arjunmuhunthan@gmail.com"
+echo "Trees Test Complete" | mailx -r "CloudBuild" -s "Trees Test Complete - `date`" "sp3612@ic.ac.uk"

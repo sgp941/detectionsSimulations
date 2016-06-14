@@ -23,7 +23,7 @@ for (count, dir) in enumerate(dirs):
  	t0 = time.time()
 	os.chdir(dir)
 	print call("pwd")
-	call(["../HoughForests", "0", configFileName])
+	call(["../../HoughForests", "0", configFileName])
 	os.chdir("..")
 	t1 = time.time()
 	total = t1-t0

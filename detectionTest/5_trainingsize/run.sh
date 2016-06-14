@@ -1,6 +1,6 @@
-python runPatchSize.py
-echo "PatchSize Run Complete" | mailx -r "CloudBuild" -s "PatchSize Run Complete -  `date`" "arjunmuhunthan@gmail.com"
-echo "PatchSize Run Complete" | mailx -r "CloudBuild" -s "PatchSize Run Complete - `date`" "sp3612@ic.ac.uk"
-python runTest.py
-echo "PatchSize Test Complete" | mailx -r "CloudBuild" -s "PatchSize Test Complete - `date`" "arjunmuhunthan@gmail.com"
-echo "PatchSize Test Complete" | mailx -r "CloudBuild" -s "PatchSize Test Complete - `date`" "sp3612@ic.ac.uk"
+./runTrainingSize.py
+echo "TrainingSize Run Complete" | mailx -r "CloudBuild" -s "TrainingSize Run Complete -  `date`" "arjunmuhunthan@gmail.com"
+echo "TrainingSize Run Complete" | mailx -r "CloudBuild" -s "TrainingSize Run Complete - `date`" "sp3612@ic.ac.uk"
+./runTest.py
+echo "TrainingSize Test Complete" | mailx -r "CloudBuild" -s "TrainingSize Test Complete - `date`" "arjunmuhunthan@gmail.com"
+echo "TrainingSize Test Complete" | mailx -r "CloudBuild" -s "TrainingSize Test Complete - `date`" "sp3612@ic.ac.uk"
