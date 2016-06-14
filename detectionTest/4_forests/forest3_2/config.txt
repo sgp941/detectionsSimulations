@@ -1,0 +1,39 @@
+# Path to trees + prefix 'treetable'
+./trees/treetable
+# Number of trees
+10
+# Patch width
+16
+# Patch height
+16
+# Path to images
+../../../football/testImages
+# File with names of images
+../../../football/testImages/test.txt
+# Extract features
+1
+# Scales (Number of scales - Scales)
+3 0.5 1 2
+# Ratios (Number of ratios - ratio)
+1 1
+# Output path
+./detect
+# Scale factor for output image (default: 128)
+128
+# Path to positive examples
+../../../football/configsForSimulation/configForForests/train_pos_3_2
+# File with postive examples
+../../../football/configsForSimulation/configForForests/train_pos_3_2.txt
+# Subset of positive images -1: all images
+-1
+# Sample patches from pos. examples
+50
+# Path to negative examples
+../../../football/configsForSimulation/configForForests/train_neg
+# File with negative examples
+../../../football/configsForSimulation/configForForests/train_neg.txt
+# Subset of negative images -1: all images
+-1
+# Sample patches from neg. examples
+50
+
