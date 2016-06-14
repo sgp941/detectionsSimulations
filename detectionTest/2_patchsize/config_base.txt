@@ -7,9 +7,9 @@
 # Patch height
 <x>
 # Path to images
-/home/sgp/Documents/hough/football/png
+../../../football/testImages
 # File with names of images
-/home/sgp/Documents/hough/football/png/test.txt
+../../../football/testImages/test.txt
 # Extract features
 1
 # Scales (Number of scales - Scales)
@@ -21,17 +21,17 @@
 # Scale factor for output image (default: 128)
 128
 # Path to positive examples
-/home/sgp/Documents/hough/football/trainimages/positive
+../../../football/configsForSimulation/configForTreesPatchSizeSamples/posImages
 # File with postive examples
-/home/sgp/Documents/hough/football/train_txt/train_pos<trainingSize>.txt
+../../../football/configsForSimulation/configForTreesPatchSizeSamples/train_pos.txt
 # Subset of positive images -1: all images
 -1
 # Sample patches from pos. examples
 50
 # Path to negative examples
-/home/sgp/Documents/hough/football/trainimages/negative
+../../../football/configsForSimulation/configForTreesPatchSizeSamples/negImages
 # File with negative examples
-/home/sgp/Documents/hough/football/train_txt/train_neg<trainingSize>.txt
+../../../football/configsForSimulation/configForTreesPatchSizeSamples/train_neg.txt
 # Subset of negative images -1: all images
 -1
 # Sample patches from neg. examples

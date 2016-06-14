@@ -1,7 +1,7 @@
 # Path to trees + prefix 'treetable'
 ./trees/treetable
 # Number of trees
-<x>
+10
 # Patch width
 16
 # Patch height
@@ -27,7 +27,7 @@
 # Subset of positive images -1: all images
 -1
 # Sample patches from pos. examples
-50
+<x>
 # Path to negative examples
 ../../../football/configsForSimulation/configForTreesPatchSizeSamples/negImages
 # File with negative examples
@@ -35,5 +35,5 @@
 # Subset of negative images -1: all images
 -1
 # Sample patches from neg. examples
-50
+<x>
 
