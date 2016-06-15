@@ -1,0 +1,8 @@
+trainingSize,2.52385783195
+trainingSiz,1.7844619751
+trainingSiz,11.2851319313
+trainingSize_,4.72125601768
+trainingSiz,5.25694012642
+trainingSize,2.24828696251
+trainingSize,1.46161103249
+trainingSiz,1.52184700966

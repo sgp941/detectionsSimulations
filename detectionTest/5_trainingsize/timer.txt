@@ -202,3 +202,11 @@ trainingSize,0.0208899974823
 trainingSiz,0.0263731479645
 trainingSiz,0.0268590450287
 trainingSize,0.0180809497833
+trainingSize,1288.8407712
+trainingSiz,38.5305931568
+trainingSiz,506.712193966
+trainingSize_,15267.118602
+trainingSiz,97.3062620163
+trainingSize,1340.42738891
+trainingSize,73.0633728504
+trainingSiz,5.18261194229
