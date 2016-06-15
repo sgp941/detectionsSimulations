@@ -43,10 +43,10 @@ RM = /usr/local/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sgp/Documents/hough
+CMAKE_SOURCE_DIR = /home/sgp/Documents/detectionsSimulations/hough
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sgp/Documents/hough
+CMAKE_BINARY_DIR = /home/sgp/Documents/detectionsSimulations/hough
 
 # Include any dependencies generated for this target.
 include CMakeFiles/HoughForests.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/HoughForests.dir/flags.make
 
 CMakeFiles/HoughForests.dir/CRForestDetector.cpp.o: CMakeFiles/HoughForests.dir/flags.make
 CMakeFiles/HoughForests.dir/CRForestDetector.cpp.o: CRForestDetector.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sgp/Documents/hough/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/HoughForests.dir/CRForestDetector.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/HoughForests.dir/CRForestDetector.cpp.o -c /home/sgp/Documents/hough/CRForestDetector.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sgp/Documents/detectionsSimulations/hough/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/HoughForests.dir/CRForestDetector.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/HoughForests.dir/CRForestDetector.cpp.o -c /home/sgp/Documents/detectionsSimulations/hough/CRForestDetector.cpp
 
 CMakeFiles/HoughForests.dir/CRForestDetector.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HoughForests.dir/CRForestDetector.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sgp/Documents/hough/CRForestDetector.cpp > CMakeFiles/HoughForests.dir/CRForestDetector.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sgp/Documents/detectionsSimulations/hough/CRForestDetector.cpp > CMakeFiles/HoughForests.dir/CRForestDetector.cpp.i
 
 CMakeFiles/HoughForests.dir/CRForestDetector.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HoughForests.dir/CRForestDetector.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sgp/Documents/hough/CRForestDetector.cpp -o CMakeFiles/HoughForests.dir/CRForestDetector.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sgp/Documents/detectionsSimulations/hough/CRForestDetector.cpp -o CMakeFiles/HoughForests.dir/CRForestDetector.cpp.s
 
 CMakeFiles/HoughForests.dir/CRForestDetector.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/HoughForests.dir/CRForestDetector.cpp.o.provides.build: CMakeFiles/Ho
 
 CMakeFiles/HoughForests.dir/CRForest-Detector.cpp.o: CMakeFiles/HoughForests.dir/flags.make
 CMakeFiles/HoughForests.dir/CRForest-Detector.cpp.o: CRForest-Detector.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sgp/Documents/hough/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/HoughForests.dir/CRForest-Detector.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/HoughForests.dir/CRForest-Detector.cpp.o -c /home/sgp/Documents/hough/CRForest-Detector.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sgp/Documents/detectionsSimulations/hough/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/HoughForests.dir/CRForest-Detector.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/HoughForests.dir/CRForest-Detector.cpp.o -c /home/sgp/Documents/detectionsSimulations/hough/CRForest-Detector.cpp
 
 CMakeFiles/HoughForests.dir/CRForest-Detector.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HoughForests.dir/CRForest-Detector.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sgp/Documents/hough/CRForest-Detector.cpp > CMakeFiles/HoughForests.dir/CRForest-Detector.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sgp/Documents/detectionsSimulations/hough/CRForest-Detector.cpp > CMakeFiles/HoughForests.dir/CRForest-Detector.cpp.i
 
 CMakeFiles/HoughForests.dir/CRForest-Detector.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HoughForests.dir/CRForest-Detector.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sgp/Documents/hough/CRForest-Detector.cpp -o CMakeFiles/HoughForests.dir/CRForest-Detector.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sgp/Documents/detectionsSimulations/hough/CRForest-Detector.cpp -o CMakeFiles/HoughForests.dir/CRForest-Detector.cpp.s
 
 CMakeFiles/HoughForests.dir/CRForest-Detector.cpp.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/HoughForests.dir/CRForest-Detector.cpp.o.provides.build: CMakeFiles/H
 
 CMakeFiles/HoughForests.dir/CRTree.cpp.o: CMakeFiles/HoughForests.dir/flags.make
 CMakeFiles/HoughForests.dir/CRTree.cpp.o: CRTree.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sgp/Documents/hough/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/HoughForests.dir/CRTree.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/HoughForests.dir/CRTree.cpp.o -c /home/sgp/Documents/hough/CRTree.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sgp/Documents/detectionsSimulations/hough/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/HoughForests.dir/CRTree.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/HoughForests.dir/CRTree.cpp.o -c /home/sgp/Documents/detectionsSimulations/hough/CRTree.cpp
 
 CMakeFiles/HoughForests.dir/CRTree.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HoughForests.dir/CRTree.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sgp/Documents/hough/CRTree.cpp > CMakeFiles/HoughForests.dir/CRTree.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sgp/Documents/detectionsSimulations/hough/CRTree.cpp > CMakeFiles/HoughForests.dir/CRTree.cpp.i
 
 CMakeFiles/HoughForests.dir/CRTree.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HoughForests.dir/CRTree.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sgp/Documents/hough/CRTree.cpp -o CMakeFiles/HoughForests.dir/CRTree.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sgp/Documents/detectionsSimulations/hough/CRTree.cpp -o CMakeFiles/HoughForests.dir/CRTree.cpp.s
 
 CMakeFiles/HoughForests.dir/CRTree.cpp.o.requires:
 
@@ -131,16 +131,16 @@ CMakeFiles/HoughForests.dir/CRTree.cpp.o.provides.build: CMakeFiles/HoughForests
 
 CMakeFiles/HoughForests.dir/HoG.cpp.o: CMakeFiles/HoughForests.dir/flags.make
 CMakeFiles/HoughForests.dir/HoG.cpp.o: HoG.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sgp/Documents/hough/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/HoughForests.dir/HoG.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/HoughForests.dir/HoG.cpp.o -c /home/sgp/Documents/hough/HoG.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sgp/Documents/detectionsSimulations/hough/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/HoughForests.dir/HoG.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/HoughForests.dir/HoG.cpp.o -c /home/sgp/Documents/detectionsSimulations/hough/HoG.cpp
 
 CMakeFiles/HoughForests.dir/HoG.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HoughForests.dir/HoG.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sgp/Documents/hough/HoG.cpp > CMakeFiles/HoughForests.dir/HoG.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sgp/Documents/detectionsSimulations/hough/HoG.cpp > CMakeFiles/HoughForests.dir/HoG.cpp.i
 
 CMakeFiles/HoughForests.dir/HoG.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HoughForests.dir/HoG.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sgp/Documents/hough/HoG.cpp -o CMakeFiles/HoughForests.dir/HoG.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sgp/Documents/detectionsSimulations/hough/HoG.cpp -o CMakeFiles/HoughForests.dir/HoG.cpp.s
 
 CMakeFiles/HoughForests.dir/HoG.cpp.o.requires:
 
@@ -155,16 +155,16 @@ CMakeFiles/HoughForests.dir/HoG.cpp.o.provides.build: CMakeFiles/HoughForests.di
 
 CMakeFiles/HoughForests.dir/CRPatch.cpp.o: CMakeFiles/HoughForests.dir/flags.make
 CMakeFiles/HoughForests.dir/CRPatch.cpp.o: CRPatch.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sgp/Documents/hough/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/HoughForests.dir/CRPatch.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/HoughForests.dir/CRPatch.cpp.o -c /home/sgp/Documents/hough/CRPatch.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sgp/Documents/detectionsSimulations/hough/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/HoughForests.dir/CRPatch.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/HoughForests.dir/CRPatch.cpp.o -c /home/sgp/Documents/detectionsSimulations/hough/CRPatch.cpp
 
 CMakeFiles/HoughForests.dir/CRPatch.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HoughForests.dir/CRPatch.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sgp/Documents/hough/CRPatch.cpp > CMakeFiles/HoughForests.dir/CRPatch.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sgp/Documents/detectionsSimulations/hough/CRPatch.cpp > CMakeFiles/HoughForests.dir/CRPatch.cpp.i
 
 CMakeFiles/HoughForests.dir/CRPatch.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HoughForests.dir/CRPatch.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sgp/Documents/hough/CRPatch.cpp -o CMakeFiles/HoughForests.dir/CRPatch.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sgp/Documents/detectionsSimulations/hough/CRPatch.cpp -o CMakeFiles/HoughForests.dir/CRPatch.cpp.s
 
 CMakeFiles/HoughForests.dir/CRPatch.cpp.o.requires:
 
@@ -195,7 +195,7 @@ HoughForests: CMakeFiles/HoughForests.dir/HoG.cpp.o
 HoughForests: CMakeFiles/HoughForests.dir/CRPatch.cpp.o
 HoughForests: CMakeFiles/HoughForests.dir/build.make
 HoughForests: CMakeFiles/HoughForests.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/sgp/Documents/hough/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable HoughForests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/sgp/Documents/detectionsSimulations/hough/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable HoughForests"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/HoughForests.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -216,6 +216,6 @@ CMakeFiles/HoughForests.dir/clean:
 .PHONY : CMakeFiles/HoughForests.dir/clean
 
 CMakeFiles/HoughForests.dir/depend:
-	cd /home/sgp/Documents/hough && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sgp/Documents/hough /home/sgp/Documents/hough /home/sgp/Documents/hough /home/sgp/Documents/hough /home/sgp/Documents/hough/CMakeFiles/HoughForests.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/sgp/Documents/detectionsSimulations/hough && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sgp/Documents/detectionsSimulations/hough /home/sgp/Documents/detectionsSimulations/hough /home/sgp/Documents/detectionsSimulations/hough /home/sgp/Documents/detectionsSimulations/hough /home/sgp/Documents/detectionsSimulations/hough/CMakeFiles/HoughForests.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/HoughForests.dir/depend
 

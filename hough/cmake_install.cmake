@@ -1,4 +1,4 @@
-# Install script for directory: /home/sgp/Documents/hough
+# Install script for directory: /home/sgp/Documents/detectionsSimulations/hough
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/sgp/Documents/hough/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/sgp/Documents/detectionsSimulations/hough/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

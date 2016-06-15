@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/sgp/Documents/hough/CRForest-Detector.cpp
+/home/sgp/Documents/detectionsSimulations/hough/CRForest-Detector.cpp
 stdexcept
 -
 vector
@@ -20,33 +20,33 @@ string
 highgui.h
 -
 CRForestDetector.h
-/home/sgp/Documents/hough/CRForestDetector.h
+/home/sgp/Documents/detectionsSimulations/hough/CRForestDetector.h
 
-/home/sgp/Documents/hough/CRForest.h
+/home/sgp/Documents/detectionsSimulations/hough/CRForest.h
 CRTree.h
-/home/sgp/Documents/hough/CRTree.h
+/home/sgp/Documents/detectionsSimulations/hough/CRTree.h
 vector
 -
 
-/home/sgp/Documents/hough/CRForestDetector.cpp
+/home/sgp/Documents/detectionsSimulations/hough/CRForestDetector.cpp
 CRForestDetector.h
-/home/sgp/Documents/hough/CRForestDetector.h
+/home/sgp/Documents/detectionsSimulations/hough/CRForestDetector.h
 vector
 -
 
-/home/sgp/Documents/hough/CRForestDetector.h
+/home/sgp/Documents/detectionsSimulations/hough/CRForestDetector.h
 CRForest.h
-/home/sgp/Documents/hough/CRForest.h
+/home/sgp/Documents/detectionsSimulations/hough/CRForest.h
 
-/home/sgp/Documents/hough/CRPatch.cpp
+/home/sgp/Documents/detectionsSimulations/hough/CRPatch.cpp
 CRPatch.h
-/home/sgp/Documents/hough/CRPatch.h
+/home/sgp/Documents/detectionsSimulations/hough/CRPatch.h
 highgui.h
 -
 deque
 -
 
-/home/sgp/Documents/hough/CRPatch.h
+/home/sgp/Documents/detectionsSimulations/hough/CRPatch.h
 cxcore.h
 -
 cv.h
@@ -56,11 +56,11 @@ vector
 iostream
 -
 HoG.h
-/home/sgp/Documents/hough/HoG.h
+/home/sgp/Documents/detectionsSimulations/hough/HoG.h
 
-/home/sgp/Documents/hough/CRTree.cpp
+/home/sgp/Documents/detectionsSimulations/hough/CRTree.cpp
 CRTree.h
-/home/sgp/Documents/hough/CRTree.h
+/home/sgp/Documents/detectionsSimulations/hough/CRTree.h
 fstream
 -
 highgui.h
@@ -68,23 +68,23 @@ highgui.h
 algorithm
 -
 
-/home/sgp/Documents/hough/CRTree.h
+/home/sgp/Documents/detectionsSimulations/hough/CRTree.h
 CRPatch.h
-/home/sgp/Documents/hough/CRPatch.h
+/home/sgp/Documents/detectionsSimulations/hough/CRPatch.h
 iostream
 -
 fstream
 -
 
-/home/sgp/Documents/hough/HoG.cpp
+/home/sgp/Documents/detectionsSimulations/hough/HoG.cpp
 vector
 -
 iostream
 -
 HoG.h
-/home/sgp/Documents/hough/HoG.h
+/home/sgp/Documents/detectionsSimulations/hough/HoG.h
 
-/home/sgp/Documents/hough/HoG.h
+/home/sgp/Documents/detectionsSimulations/hough/HoG.h
 cxcore.h
 -
 vector
