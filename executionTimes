@@ -1,0 +1,56 @@
+1_samples
+Train Time - [76.91, 174.58, 523.92, 1238.36, 2825.10]
+Train Order - [10, 20, 50, 100, 200]
+
+
+Test Time - [1158.87, 1414.80, 1893.23, 2445.19, 2908.27]
+Test Order - [10, 20, 50, 100, 200]
+
+2_patchsize
+Train Time - [394.03, 449.47, 439.92, 440.52, 476.23, 469.85]
+Train Order - [4, 8, 12, 16, 20, 24]
+
+Test Time - [2887.62, 1965.57, 1655.51, 1500.98,  1209.24, 1209.40]
+Test Order - [4, 8, 12, 16, 20, 24]
+
+
+
+
+3_trees
+Train Time - [57.00, 241.83, 481.16, 692.56, 903.77, 1154.82]
+Train Order - [1, 4, 8, 12, 16, 20]
+
+Test Time - [415.95, 813.13, 1371.67, 1972.09, 2565.89, 3198.65]
+Test Order - [1, 4, 8, 12.16, 20]
+
+
+
+
+4_forests
+forest2_2 -> Did not complete
+Train Time - [502.42, 529.40, 508.90]
+Train Order - [forest1_1, forest4_1, forest4_3]
+
+Test Time - [1333.47, 1844.46, 1938.89]
+Test Order - [forest1_1, forest4_1, forest4_3]
+
+
+
+
+5_trainingsize 
+Train Time - []
+Train Order - []
+
+Test Time - []
+Test Order - []
+
+
+
+
+
+
+forest2_2
+
+
+
+
