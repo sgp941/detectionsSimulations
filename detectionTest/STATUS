@@ -1,0 +1,20 @@
+1_samples
+	Train - Completed (Pushed)
+	Test - Completed (Pushed)
+
+2_patchsize
+	Train - Completed (Pushed)
+	Test - Completed (Pushed)
+
+3_trees
+	Train - Completed (Pushed)
+	Test - Completed (Pushed)
+
+4_forests
+	Train - Completed (Pushed)
+	Test - Semi-Completed (Pushed) -- Need to rerun (Maybe only do partial data set requires changes to scripts)
+
+5_trainingsize
+	Train - 
+	Test - 
+
